@@ -1,16 +1,17 @@
+
 Pod::Spec.new do |spec|
     spec.name              = 'MealziOSSDKRelease'
-    spec.version           = '4.1.0-alpha'
-    spec.summary           = 'Mealz Core for iOS'
-    spec.homepage          = 'https://www.miam.tech'
+    spec.version           = '4.1.0'
+    spec.summary           = 'Mealz Framework for iOS'
+    spec.homepage          = 'https://miamtech.github.io/mealz-documentation'
        spec.description           = <<-DESC
-           Mealz Core SDK for iOS.
+       Mealz MealziOSSDK SDK for iOS.
        DESC
-    spec.author            = { 'Diarmuid McGonagle' => 'it@miam.tech' }
-    spec.license           = { :type => 'GPLv3', :file => 'LICENSE' }
+    spec.author            = { 'Diarmuid McGonagle, Damien Walerowicz' => 'it@miam.tech' }
+    #spec.license           = { :type => 'GPLv3', :file => 'LICENSE' }
     spec.swift_versions = "5.8"
-    spec.platform          = :ios, "11.0"
-    spec.source            = { :http => "https://github.com/miamtech/#{spec.name}/archive/refs/tags/#{spec.version}.zip" }
-    spec.ios.vendored_frameworks =
-        "#{spec.name}-#{spec.version}/MealziOSSDK.xcframework"
+    spec.platform          = :ios, "12.0"
+    spec.source            = { :http => 'https://github.com/miamtech/MealziOSSDKRelease/raw/release/4.1.0/MealziOSSDK.zip' }
+    spec.dependency 'MealzCore', '~> 4.1.0'
+    spec.ios.vendored_frameworks = 'MealziOSSDK.xcframework'
 end

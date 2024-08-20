@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		2j39LpquEQ9Rq3Rb89AdhY9gD44=
+		HNB0qa15C0z1fRgAUbzFzQIFKu8=
 		</data>
 		<key>Headers/MealziOSSDK-Swift.h</key>
 		<data>
-		I5K7VpleVe4XYcGSA65ABjx6L7I=
+		X5fLJWctfr/CTo55eRy2CK6NMsM=
 		</data>
 		<key>Headers/MealziOSSDK.h</key>
 		<data>
@@ -18,27 +18,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		3rFSU3Qsrkvap9g6aG+a4X0ZODw=
+		yYwPcQtyDupNZ2BaThCkabj/9ig=
 		</data>
 		<key>Modules/MealziOSSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		fVdYqMRyLce2LYnnH1pWW6T8Dws=
+		6n3rDCunOn7aGCzLOqb98KvzlSs=
 		</data>
 		<key>Modules/MealziOSSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		Vh/zp39R7EezHDp1xl/Qxd6FlkI=
+		Sus1Cdy/2yqzmkbvbIFhefHPb40=
 		</data>
 		<key>Modules/MealziOSSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		6FD1dnwRj9nCjrdJFPq6f/KjYuM=
+		fRS1JfJkxB9DnU2ZPXCuinsLk70=
 		</data>
 		<key>Modules/MealziOSSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		Vh/zp39R7EezHDp1xl/Qxd6FlkI=
+		Sus1Cdy/2yqzmkbvbIFhefHPb40=
 		</data>
 		<key>Modules/MealziOSSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		P3CslApNH1TLfqW7QPJX4ZJPZag=
+		6/s2bi9Wdw2yUcKbAHYx5CPC/1E=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -51,14 +51,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			60bLoaTgf0+8CNhQFWpGxeDMG6SOQHdKJl7kXpx1m6E=
+			vCp0MKJmZuMChizkx4elN4YsQ2Px7VkLmLAtNX6ahB0=
 			</data>
 		</dict>
 		<key>Headers/MealziOSSDK-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CuyFP+wRt+LARw2OlviKhnhzNJ5L0Rh4zbpRieBP/uk=
+			mcLnhyATww4itj0IcJ0XoMYirxOnt9jldV6PyRpJ8J4=
 			</data>
 		</dict>
 		<key>Headers/MealziOSSDK.h</key>
@@ -72,35 +72,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Kw4ol4i5k7LDNvJqGB0/8TraOy27sioNsriPdMfD32k=
+			nWcygvGcAM2X+4pel75kuD92VBYXclPNRdheCZJTLiE=
 			</data>
 		</dict>
 		<key>Modules/MealziOSSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SmNcvs7ylU4JQVpE3UbvcKLf8eyXQlGdMQt0ZLLbwFw=
+			K+sZ6dU5h4IgAC0ASW1QAUDDnj2vNQDw18cCi+u3a6o=
 			</data>
 		</dict>
 		<key>Modules/MealziOSSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			V6dmWlv1toOh1DBRuY6JpMtGRpOkP+p8KOl7Sim0FCU=
+			rQ7PunktudsKNcxBj5Z91jMzDXnr4MQmhh5V8iDGvoE=
 			</data>
 		</dict>
 		<key>Modules/MealziOSSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SmNcvs7ylU4JQVpE3UbvcKLf8eyXQlGdMQt0ZLLbwFw=
+			K+sZ6dU5h4IgAC0ASW1QAUDDnj2vNQDw18cCi+u3a6o=
 			</data>
 		</dict>
 		<key>Modules/MealziOSSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tYxXd+gEpbK8+8MyF5kbentkH3pPXStBxxTj2ZTHBDg=
+			YFjYDvHT3UhpzD3f1ydvsVSmptNoDu73kPxWV6zWlxU=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
