@@ -88,7 +88,7 @@ public enum SelectedMyBasketPage : Swift.Int {
 }
 @available(iOS 14, *)
 @_Concurrency.MainActor(unsafe) public struct MyBasket<MyBasketParameters, MyBasketBaseViews, MyMealsParameters, MyMealsBaseViews, MyProductsParameters, MyProductsBaseViews> : SwiftUI.View where MyBasketParameters : MealziOSSDK.MyBasketParametersProtocol, MyBasketBaseViews : MealziOSSDK.BaseViewsProtocol, MyMealsParameters : MealziOSSDK.MyMealsParametersProtocol, MyMealsBaseViews : MealziOSSDK.BaseViewsProtocol, MyProductsParameters : MealziOSSDK.MyProductsParametersProtocol, MyProductsBaseViews : MealziOSSDK.BaseViewsProtocol {
-  @_Concurrency.MainActor(unsafe) public init(myBasketParams: MyBasketParameters, myBasketBaseViews: MyBasketBaseViews, myMealsParams: MyMealsParameters, myMealsBaseViews: MyMealsBaseViews, myProductsParams: MyProductsParameters, myProductsBaseViews: MyProductsBaseViews, footerHeight: CoreFoundation.CGFloat = 80, gridConfig: MealziOSSDK.CatalogRecipesListGridConfig)
+  @_Concurrency.MainActor(unsafe) public init(myBasketParams: MyBasketParameters, myBasketBaseViews: MyBasketBaseViews, myMealsParams: MyMealsParameters, myMealsBaseViews: MyMealsBaseViews, myProductsParams: MyProductsParameters, myProductsBaseViews: MyProductsBaseViews, footerHeight: CoreFoundation.CGFloat = 80, defaultTab: MealziOSSDK.SelectedMyBasketPage = .recipes, gridConfig: MealziOSSDK.CatalogRecipesListGridConfig)
   @_Concurrency.MainActor(unsafe) public var body: some SwiftUI.View {
     get
   }
