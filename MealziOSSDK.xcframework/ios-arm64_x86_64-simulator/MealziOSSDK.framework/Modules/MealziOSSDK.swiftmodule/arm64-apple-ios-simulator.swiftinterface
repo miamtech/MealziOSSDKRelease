@@ -1081,7 +1081,9 @@ public struct RecipeDetailsUnaddedProductParameters {
   public let onAddProduct: () -> Swift.Void
   public let onIgnoreProduct: () -> Swift.Void
   public let onChooseProduct: () -> Swift.Void
-  public init(data: MealziOSSDK.RecipeProductData, productStatus: mealzcore.ComponentUiState, onAddProduct: @escaping () -> Swift.Void, onIgnoreProduct: @escaping () -> Swift.Void, onChooseProduct: @escaping () -> Swift.Void)
+  public let pricePerUnitOfMeasurement: Swift.Double
+  public let productUnit: Swift.String
+  public init(data: MealziOSSDK.RecipeProductData, productStatus: mealzcore.ComponentUiState, onAddProduct: @escaping () -> Swift.Void, onIgnoreProduct: @escaping () -> Swift.Void, onChooseProduct: @escaping () -> Swift.Void, pricePerUnitOfMeasurement: Swift.Double, productUnit: Swift.String)
 }
 @available(iOS 14, *)
 public struct TypeSafeRecipeDetailsUnaddedProduct : MealziOSSDK.RecipeDetailsUnaddedProductProtocol {
@@ -1119,7 +1121,9 @@ public struct RecipeDetailsAddedProductParameters {
   public let onDeleteProduct: () -> Swift.Void
   public let onChangeProduct: () -> Swift.Void
   public let updateProductQuantity: (Swift.Int) -> Swift.Void
-  public init(data: MealziOSSDK.RecipeProductData, updatingQuantity: Swift.Bool, productQuantityPressed: SwiftUI.Binding<Swift.Bool>, onDeleteProduct: @escaping () -> Swift.Void, onChangeProduct: @escaping () -> Swift.Void, updateProductQuantity: @escaping (Swift.Int) -> Swift.Void)
+  public let pricePerUnitOfMeasurement: Swift.Double
+  public let productUnit: Swift.String
+  public init(data: MealziOSSDK.RecipeProductData, updatingQuantity: Swift.Bool, productQuantityPressed: SwiftUI.Binding<Swift.Bool>, onDeleteProduct: @escaping () -> Swift.Void, onChangeProduct: @escaping () -> Swift.Void, updateProductQuantity: @escaping (Swift.Int) -> Swift.Void, pricePerUnitOfMeasurement: Swift.Double, productUnit: Swift.String)
 }
 @available(iOS 14, *)
 public struct TypeSafeRecipeDetailsIgnoredProduct : MealziOSSDK.RecipeDetailsIgnoredProductProtocol {
@@ -1141,7 +1145,9 @@ public struct RecipeDetailsIgnoredProductParameters {
   public let guestsCount: Swift.Int
   public let defaultRecipeGuest: Swift.Int
   public let onChooseProduct: () -> Swift.Void
-  public init(ingredientName: Swift.String, ingredientQuantity: Swift.String? = nil, ingredientUnit: Swift.String? = nil, guestsCount: Swift.Int, defaultRecipeGuest: Swift.Int, onChooseProduct: @escaping () -> Swift.Void)
+  public let pricePerUnitOfMeasurement: Swift.Double
+  public let productUnit: Swift.String
+  public init(ingredientName: Swift.String, ingredientQuantity: Swift.String? = nil, ingredientUnit: Swift.String? = nil, guestsCount: Swift.Int, defaultRecipeGuest: Swift.Int, onChooseProduct: @escaping () -> Swift.Void, pricePerUnitOfMeasurement: Swift.Double, productUnit: Swift.String)
 }
 @available(iOS 14, *)
 public struct RecipeDetailTags : Swift.Identifiable {

@@ -6,7 +6,7 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		HNB0qa15C0z1fRgAUbzFzQIFKu8=
+		re/rNUfqPfzNJvHPMuB+Yka6B/g=
 		</data>
 		<key>Headers/MealziOSSDK-Swift.h</key>
 		<data>
@@ -22,43 +22,43 @@
 		</data>
 		<key>Modules/MealziOSSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		45q75bPyt9FfX+/dzJHd3hCwlks=
+		JRjjYuNw71QFxjc1jQlZKp8A+kQ=
 		</data>
 		<key>Modules/MealziOSSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		H1uveQe5Dj47GbUpnW+RFfqTsxo=
+		rY9sCKdEeYknyPQI+5BQSsHf43I=
 		</data>
 		<key>Modules/MealziOSSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		9dKTGj761oNjHXAGf48OV0T6MfM=
+		MVDV4hrY9OUCj3GcaBFQ0Xow9V0=
 		</data>
 		<key>Modules/MealziOSSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		H1uveQe5Dj47GbUpnW+RFfqTsxo=
+		rY9sCKdEeYknyPQI+5BQSsHf43I=
 		</data>
 		<key>Modules/MealziOSSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		kmdRkYE9u2qauLG178kSfMpcwMA=
+		f6mSJSd0wPG8MFmpeyhBZGO/j4A=
 		</data>
 		<key>Modules/MealziOSSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		45q75bPyt9FfX+/dzJHd3hCwlks=
+		JRjjYuNw71QFxjc1jQlZKp8A+kQ=
 		</data>
 		<key>Modules/MealziOSSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		vu2il1I5en5u+PDTboWA3euEyQc=
+		X/yklkPfBHzG6/LcXiASrGtvx8c=
 		</data>
 		<key>Modules/MealziOSSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		5Fii/MOdDz190DMZRc1P8mfUiSY=
+		g0wmYeLyQiWvMeCLXrvFUzj7coY=
 		</data>
 		<key>Modules/MealziOSSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		vu2il1I5en5u+PDTboWA3euEyQc=
+		X/yklkPfBHzG6/LcXiASrGtvx8c=
 		</data>
 		<key>Modules/MealziOSSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		PLqQaNl8kjP10OKvnNCkNGtKnq0=
+		JZb+a/w2UJoYT/ukVNSmVf7yHA4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -71,7 +71,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vCp0MKJmZuMChizkx4elN4YsQ2Px7VkLmLAtNX6ahB0=
+			mQL4UzYt2moxwRD1tmqAcgOO14sBkrFm1oRtj4W5Qg0=
 			</data>
 		</dict>
 		<key>Headers/MealziOSSDK-Swift.h</key>
@@ -92,70 +92,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			JVoM3w8thbenSSbbul4GDGiKF8vHh+8dwCoLrvfvZh8=
+			dyHnwLLecqzfMYQM9fhRde4S4bgaoCoVIu4gJz+WNZs=
 			</data>
 		</dict>
 		<key>Modules/MealziOSSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TBCc/xVPzzH/adbURU38DYXnS0vfDWUEM4A4zpI5KwU=
+			Gx2H2XwC4QDRWK+orwIJ4RQvmuQ8Jsx7eoBaUqCs664=
 			</data>
 		</dict>
 		<key>Modules/MealziOSSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AZxq+dy7nIcKNPRzvXG7mDaIGgbIezZ9DtG94sFCFzs=
+			D+r1u98lb3k6VwCUomnYvzwk91RHg/IT/mg4mvnXVgE=
 			</data>
 		</dict>
 		<key>Modules/MealziOSSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TBCc/xVPzzH/adbURU38DYXnS0vfDWUEM4A4zpI5KwU=
+			Gx2H2XwC4QDRWK+orwIJ4RQvmuQ8Jsx7eoBaUqCs664=
 			</data>
 		</dict>
 		<key>Modules/MealziOSSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZXoI6CTz3LXrowcY9NeYh3IregLdeRuUf7zmxxGcFBA=
+			TgbTPF2nHveJTDayhTUme7cfFF/pg+8xhCNcuEZMY6k=
 			</data>
 		</dict>
 		<key>Modules/MealziOSSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			JVoM3w8thbenSSbbul4GDGiKF8vHh+8dwCoLrvfvZh8=
+			dyHnwLLecqzfMYQM9fhRde4S4bgaoCoVIu4gJz+WNZs=
 			</data>
 		</dict>
 		<key>Modules/MealziOSSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ah+EQ7tZ3I0AaQuS/HFUqVD5r/Joz1a1yeyBtiAWW5s=
+			ojxObSnFvQyI4eAMFXDf7ZhyI6e5XaJheGUXkx77cZk=
 			</data>
 		</dict>
 		<key>Modules/MealziOSSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Jl9mJaAgUr/WEyBeA37HVtSWSu7Jo9/sEb1cB77n0DM=
+			+FXdbsZKGFRfxGy6TvEPhyGWi7OmGBeRgGNP47/R6k8=
 			</data>
 		</dict>
 		<key>Modules/MealziOSSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ah+EQ7tZ3I0AaQuS/HFUqVD5r/Joz1a1yeyBtiAWW5s=
+			ojxObSnFvQyI4eAMFXDf7ZhyI6e5XaJheGUXkx77cZk=
 			</data>
 		</dict>
 		<key>Modules/MealziOSSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			4ZA7qGXfN7bqyQ86JjwHZieT2jQ5YJNR07o1RZuowmc=
+			0QKd0/LA+n4YjWVZB8X+Rc7QJ7h89zMws29093RBlgo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

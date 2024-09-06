@@ -28211,15 +28211,15 @@
       },
       {
         "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
+        "name": "mealzcore",
+        "printedName": "mealzcore",
         "declKind": "Import",
         "moduleName": "MealziOSSDK"
       },
       {
         "kind": "Import",
-        "name": "mealzcore",
-        "printedName": "mealzcore",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
         "declKind": "Import",
         "moduleName": "MealziOSSDK"
       },
@@ -29519,8 +29519,8 @@
       },
       {
         "kind": "Import",
-        "name": "SwiftUI",
-        "printedName": "SwiftUI",
+        "name": "mealzcore",
+        "printedName": "mealzcore",
         "declKind": "Import",
         "moduleName": "MealziOSSDK",
         "declAttributes": [
@@ -29529,8 +29529,8 @@
       },
       {
         "kind": "Import",
-        "name": "mealzcore",
-        "printedName": "mealzcore",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
         "declKind": "Import",
         "moduleName": "MealziOSSDK"
       },
@@ -29890,9 +29890,99 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "pricePerUnitOfMeasurement",
+            "printedName": "pricePerUnitOfMeasurement",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11MealziOSSDK37RecipeDetailsUnaddedProductParametersV25pricePerUnitOfMeasurementSdvp",
+            "mangledName": "$s11MealziOSSDK37RecipeDetailsUnaddedProductParametersV25pricePerUnitOfMeasurementSdvp",
+            "moduleName": "MealziOSSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MealziOSSDK37RecipeDetailsUnaddedProductParametersV25pricePerUnitOfMeasurementSdvg",
+                "mangledName": "$s11MealziOSSDK37RecipeDetailsUnaddedProductParametersV25pricePerUnitOfMeasurementSdvg",
+                "moduleName": "MealziOSSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "productUnit",
+            "printedName": "productUnit",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11MealziOSSDK37RecipeDetailsUnaddedProductParametersV11productUnitSSvp",
+            "mangledName": "$s11MealziOSSDK37RecipeDetailsUnaddedProductParametersV11productUnitSSvp",
+            "moduleName": "MealziOSSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MealziOSSDK37RecipeDetailsUnaddedProductParametersV11productUnitSSvg",
+                "mangledName": "$s11MealziOSSDK37RecipeDetailsUnaddedProductParametersV11productUnitSSvg",
+                "moduleName": "MealziOSSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(data:productStatus:onAddProduct:onIgnoreProduct:onChooseProduct:)",
+            "printedName": "init(data:productStatus:onAddProduct:onIgnoreProduct:onChooseProduct:pricePerUnitOfMeasurement:productUnit:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -29962,11 +30052,23 @@
                     "printedName": "()"
                   }
                 ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:11MealziOSSDK37RecipeDetailsUnaddedProductParametersV4data13productStatus05onAddF00k6IgnoreF00k6ChooseF0AcA0cF4DataV_So25MealzcoreComponentUiStateCyycyycyyctcfc",
-            "mangledName": "$s11MealziOSSDK37RecipeDetailsUnaddedProductParametersV4data13productStatus05onAddF00k6IgnoreF00k6ChooseF0AcA0cF4DataV_So25MealzcoreComponentUiStateCyycyycyyctcfc",
+            "usr": "s:11MealziOSSDK37RecipeDetailsUnaddedProductParametersV4data13productStatus05onAddF00k6IgnoreF00k6ChooseF025pricePerUnitOfMeasurement0iQ0AcA0cF4DataV_So25MealzcoreComponentUiStateCyycyycyycSdSStcfc",
+            "mangledName": "$s11MealziOSSDK37RecipeDetailsUnaddedProductParametersV4data13productStatus05onAddF00k6IgnoreF00k6ChooseF025pricePerUnitOfMeasurement0iQ0AcA0cF4DataV_So25MealzcoreComponentUiStateCyycyycyycSdSStcfc",
             "moduleName": "MealziOSSDK",
             "declAttributes": [
               "AccessControl"
@@ -30751,9 +30853,99 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "pricePerUnitOfMeasurement",
+            "printedName": "pricePerUnitOfMeasurement",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11MealziOSSDK35RecipeDetailsAddedProductParametersV25pricePerUnitOfMeasurementSdvp",
+            "mangledName": "$s11MealziOSSDK35RecipeDetailsAddedProductParametersV25pricePerUnitOfMeasurementSdvp",
+            "moduleName": "MealziOSSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MealziOSSDK35RecipeDetailsAddedProductParametersV25pricePerUnitOfMeasurementSdvg",
+                "mangledName": "$s11MealziOSSDK35RecipeDetailsAddedProductParametersV25pricePerUnitOfMeasurementSdvg",
+                "moduleName": "MealziOSSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "productUnit",
+            "printedName": "productUnit",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11MealziOSSDK35RecipeDetailsAddedProductParametersV11productUnitSSvp",
+            "mangledName": "$s11MealziOSSDK35RecipeDetailsAddedProductParametersV11productUnitSSvp",
+            "moduleName": "MealziOSSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MealziOSSDK35RecipeDetailsAddedProductParametersV11productUnitSSvg",
+                "mangledName": "$s11MealziOSSDK35RecipeDetailsAddedProductParametersV11productUnitSSvg",
+                "moduleName": "MealziOSSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(data:updatingQuantity:productQuantityPressed:onDeleteProduct:onChangeProduct:updateProductQuantity:)",
+            "printedName": "init(data:updatingQuantity:productQuantityPressed:onDeleteProduct:onChangeProduct:updateProductQuantity:pricePerUnitOfMeasurement:productUnit:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -30838,11 +31030,23 @@
                     "usr": "s:Si"
                   }
                 ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:11MealziOSSDK35RecipeDetailsAddedProductParametersV4data16updatingQuantity07productJ7Pressed08onDeleteF00m6ChangeF006updatefJ0AcA0cF4DataV_Sb7SwiftUI7BindingVySbGyycyycySictcfc",
-            "mangledName": "$s11MealziOSSDK35RecipeDetailsAddedProductParametersV4data16updatingQuantity07productJ7Pressed08onDeleteF00m6ChangeF006updatefJ0AcA0cF4DataV_Sb7SwiftUI7BindingVySbGyycyycySictcfc",
+            "usr": "s:11MealziOSSDK35RecipeDetailsAddedProductParametersV4data16updatingQuantity07productJ7Pressed08onDeleteF00m6ChangeF006updatefJ025pricePerUnitOfMeasurement0kS0AcA0cF4DataV_Sb7SwiftUI7BindingVySbGyycyycySicSdSStcfc",
+            "mangledName": "$s11MealziOSSDK35RecipeDetailsAddedProductParametersV4data16updatingQuantity07productJ7Pressed08onDeleteF00m6ChangeF006updatefJ025pricePerUnitOfMeasurement0kS0AcA0cF4DataV_Sb7SwiftUI7BindingVySbGyycyycySicSdSStcfc",
             "moduleName": "MealziOSSDK",
             "declAttributes": [
               "AccessControl"
@@ -31378,9 +31582,99 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "pricePerUnitOfMeasurement",
+            "printedName": "pricePerUnitOfMeasurement",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11MealziOSSDK37RecipeDetailsIgnoredProductParametersV25pricePerUnitOfMeasurementSdvp",
+            "mangledName": "$s11MealziOSSDK37RecipeDetailsIgnoredProductParametersV25pricePerUnitOfMeasurementSdvp",
+            "moduleName": "MealziOSSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MealziOSSDK37RecipeDetailsIgnoredProductParametersV25pricePerUnitOfMeasurementSdvg",
+                "mangledName": "$s11MealziOSSDK37RecipeDetailsIgnoredProductParametersV25pricePerUnitOfMeasurementSdvg",
+                "moduleName": "MealziOSSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "productUnit",
+            "printedName": "productUnit",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:11MealziOSSDK37RecipeDetailsIgnoredProductParametersV11productUnitSSvp",
+            "mangledName": "$s11MealziOSSDK37RecipeDetailsIgnoredProductParametersV11productUnitSSvp",
+            "moduleName": "MealziOSSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:11MealziOSSDK37RecipeDetailsIgnoredProductParametersV11productUnitSSvg",
+                "mangledName": "$s11MealziOSSDK37RecipeDetailsIgnoredProductParametersV11productUnitSSvg",
+                "moduleName": "MealziOSSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(ingredientName:ingredientQuantity:ingredientUnit:guestsCount:defaultRecipeGuest:onChooseProduct:)",
+            "printedName": "init(ingredientName:ingredientQuantity:ingredientUnit:guestsCount:defaultRecipeGuest:onChooseProduct:pricePerUnitOfMeasurement:productUnit:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -31452,11 +31746,23 @@
                     "printedName": "()"
                   }
                 ]
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:11MealziOSSDK37RecipeDetailsIgnoredProductParametersV14ingredientName0H8Quantity0H4Unit11guestsCount07defaultC5Guest08onChooseF0ACSS_SSSgAJS2iyyctcfc",
-            "mangledName": "$s11MealziOSSDK37RecipeDetailsIgnoredProductParametersV14ingredientName0H8Quantity0H4Unit11guestsCount07defaultC5Guest08onChooseF0ACSS_SSSgAJS2iyyctcfc",
+            "usr": "s:11MealziOSSDK37RecipeDetailsIgnoredProductParametersV14ingredientName0H8Quantity0H4Unit11guestsCount07defaultC5Guest08onChooseF008pricePerK13OfMeasurement07productK0ACSS_SSSgALS2iyycSdSStcfc",
+            "mangledName": "$s11MealziOSSDK37RecipeDetailsIgnoredProductParametersV14ingredientName0H8Quantity0H4Unit11guestsCount07defaultC5Guest08onChooseF008pricePerK13OfMeasurement07productK0ACSS_SSSgALS2iyycSdSStcfc",
             "moduleName": "MealziOSSDK",
             "declAttributes": [
               "AccessControl"
@@ -77573,13 +77879,6 @@
       "value": "false"
     },
     {
-      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealziOSSDK\/Sources\/MealziOSSDK\/ViewModels\/RecipePageVM.swift",
-      "kind": "StringLiteral",
-      "offset": 217,
-      "length": 12,
-      "value": "\"MealziOSSDK.RecipePageVM\""
-    },
-    {
       "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealziOSSDK\/Sources\/MealziOSSDK\/ViewModels\/RecipeCardVM.swift",
       "kind": "BooleanLiteral",
       "offset": 364,
@@ -77610,30 +77909,44 @@
     {
       "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealziOSSDK\/Sources\/MealziOSSDK\/ViewModels\/FiltersVM.swift",
       "kind": "IntegerLiteral",
-      "offset": 332,
+      "offset": 369,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealziOSSDK\/Sources\/MealziOSSDK\/ViewModels\/FiltersVM.swift",
       "kind": "Array",
-      "offset": 379,
+      "offset": 416,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealziOSSDK\/Sources\/MealziOSSDK\/ViewModels\/FiltersVM.swift",
       "kind": "Array",
-      "offset": 421,
+      "offset": 458,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealziOSSDK\/Sources\/MealziOSSDK\/ViewModels\/FiltersVM.swift",
       "kind": "Array",
-      "offset": 463,
+      "offset": 500,
       "length": 2,
       "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealziOSSDK\/Sources\/MealziOSSDK\/ViewModels\/FiltersVM.swift",
+      "kind": "StringLiteral",
+      "offset": 541,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealziOSSDK\/Sources\/MealziOSSDK\/ViewModels\/FiltersVM.swift",
+      "kind": "BooleanLiteral",
+      "offset": 571,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealziOSSDK\/Sources\/MealziOSSDK\/ViewModels\/PreferencesVM.swift",
@@ -77869,28 +78182,28 @@
     {
       "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealziOSSDK\/Sources\/MealziOSSDK\/TemplateProtocols\/MealPlanner\/ReplaceRecipe\/MealPlannerRecipePicker.swift",
       "kind": "StringLiteral",
-      "offset": 1735,
+      "offset": 1724,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealziOSSDK\/Sources\/MealziOSSDK\/TemplateProtocols\/MealPlanner\/ReplaceRecipe\/MealPlannerRecipePicker.swift",
       "kind": "BooleanLiteral",
-      "offset": 1787,
+      "offset": 1776,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealziOSSDK\/Sources\/MealziOSSDK\/TemplateProtocols\/MealPlanner\/ReplaceRecipe\/MealPlannerRecipePicker.swift",
       "kind": "BooleanLiteral",
-      "offset": 1836,
+      "offset": 1825,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealziOSSDK\/Sources\/MealziOSSDK\/TemplateProtocols\/MealPlanner\/ReplaceRecipe\/MealPlannerRecipePicker.swift",
       "kind": "BooleanLiteral",
-      "offset": 1889,
+      "offset": 1878,
       "length": 5,
       "value": "false"
     },
@@ -77995,28 +78308,28 @@
     {
       "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealziOSSDK\/Sources\/MealziOSSDK\/TemplateProtocols\/Catalog\/Results\/CatalogResults.swift",
       "kind": "BooleanLiteral",
-      "offset": 1957,
+      "offset": 1946,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealziOSSDK\/Sources\/MealziOSSDK\/TemplateProtocols\/Catalog\/Results\/CatalogResults.swift",
       "kind": "BooleanLiteral",
-      "offset": 2364,
+      "offset": 2353,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealziOSSDK\/Sources\/MealziOSSDK\/TemplateProtocols\/Catalog\/Results\/CatalogResults.swift",
       "kind": "BooleanLiteral",
-      "offset": 2411,
+      "offset": 2400,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealziOSSDK\/Sources\/MealziOSSDK\/TemplateProtocols\/Catalog\/Results\/CatalogResults.swift",
       "kind": "IntegerLiteral",
-      "offset": 2548,
+      "offset": 2537,
       "length": 3,
       "value": "200"
     },
@@ -78030,14 +78343,14 @@
     {
       "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealziOSSDK\/Sources\/MealziOSSDK\/TemplateProtocols\/Catalog\/CatalogView\/CatalogView.swift",
       "kind": "BooleanLiteral",
-      "offset": 1860,
+      "offset": 1849,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/dwalerowicz\/Documents\/Projects\/Marmiton\/MealziOSSDK\/Sources\/MealziOSSDK\/TemplateProtocols\/Catalog\/CatalogView\/CatalogView.swift",
       "kind": "BooleanLiteral",
-      "offset": 2172,
+      "offset": 2161,
       "length": 5,
       "value": "false"
     },
