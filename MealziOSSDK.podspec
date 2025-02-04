@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |spec|
     spec.name              = 'MealziOSSDK'
-    spec.version           = '5.2.5'
+    spec.version           = '5.2.6'
     spec.summary           = 'Mealz Framework for iOS'
     spec.homepage          = 'https://miamtech.github.io/mealz-documentation'
        spec.description           = <<-DESC

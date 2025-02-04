@@ -6,11 +6,11 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		2j39LpquEQ9Rq3Rb89AdhY9gD44=
+		4wtaz7qdfyxEbADsZIinpUvYI4g=
 		</data>
 		<key>Headers/MealziOSSDK-Swift.h</key>
 		<data>
-		4XNYV94Kd55945P5FnsVmmZHhws=
+		P4wxFlq9p1cdybeQyoj5zGfvIIA=
 		</data>
 		<key>Headers/MealziOSSDK.h</key>
 		<data>
@@ -18,52 +18,88 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		fhYC4vYtS262J9P3HdsJ2n61Qnk=
+		9lkszzDP8tzFfXfohOcWSP/+FrM=
 		</data>
 		<key>Modules/MealziOSSDK.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		vDBv+zuLScaWa4SEfx/sKznjETE=
+		AgW6g2GQfTP9PqTGNkHqpU69pCk=
 		</data>
 		<key>Modules/MealziOSSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		pQiF3LEABnf42EGu8McgKx5+JeQ=
+		vpcURWalJ4bQ/6SQ7OE0pkcy0oU=
 		</data>
 		<key>Modules/MealziOSSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		i+TPeY5a4z3UVuAK3qFUG+hvLRw=
+		rNOxZuhTjw+7/z+tHA7RHUk2p3Q=
 		</data>
 		<key>Modules/MealziOSSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		pQiF3LEABnf42EGu8McgKx5+JeQ=
+		vpcURWalJ4bQ/6SQ7OE0pkcy0oU=
 		</data>
 		<key>Modules/MealziOSSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		wffwNh2HXXiG8Y/iqNiZlCT9FhE=
+		3h/ZRbPedOBGyQ+qy7N730IwpNE=
 		</data>
 		<key>Modules/MealziOSSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		vDBv+zuLScaWa4SEfx/sKznjETE=
+		AgW6g2GQfTP9PqTGNkHqpU69pCk=
 		</data>
 		<key>Modules/MealziOSSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		K8iTbzSb7t8G3qw1HhGVjAIAxZY=
+		z2LhqwdQnv0Fp5Bcf3DjhrLayh4=
 		</data>
 		<key>Modules/MealziOSSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		TvbnU47RNWEZBZ89XhW71CSOWtE=
+		gHl2nELjykrLGO2YgYZPCImtVKY=
 		</data>
 		<key>Modules/MealziOSSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		K8iTbzSb7t8G3qw1HhGVjAIAxZY=
+		z2LhqwdQnv0Fp5Bcf3DjhrLayh4=
 		</data>
 		<key>Modules/MealziOSSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		/osBSFqT1CNNy47WJCWKDSgUpAY=
+		4AkwhlhncxENFC/mQC1ieKOnqpM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		2Bfs/Zh+4sJw4rckNH2IH/UMduo=
 		</data>
+		<key>en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6Yc1SYf/ovK++AsInMCVIuloXsg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>en.lproj/Localizable.stringsdict</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			wegToiuiLohKOtW3tw6SOXsm4nI=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>fr.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			dFgYfYyukql8d23FHnB/6q7Dh1w=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>fr.lproj/Localizable.stringsdict</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			UAGcw2ll849zxiV0nehvHyihWik=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -71,14 +107,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			60bLoaTgf0+8CNhQFWpGxeDMG6SOQHdKJl7kXpx1m6E=
+			T58yzsh7MAvWaTfCWomfhvt3Z8RlXdTNWC96PtP4kbY=
 			</data>
 		</dict>
 		<key>Headers/MealziOSSDK-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uTNGqYtObzVvebi92qmFpuG4L5XqC7Fzo2BYTw1syVE=
+			1MxjciBJKeNXH1r0J0LkYR3f/CGYDgnKRlf2sN3gMqI=
 			</data>
 		</dict>
 		<key>Headers/MealziOSSDK.h</key>
@@ -92,70 +128,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			djWG+66vYvFx4x2UT2HGSGAlb4r3CeWhAqr5eSzukzw=
+			m6NHjaxUG4OPuWpPalqdEAXzv8gApn9E+WbSVrXJAUY=
 			</data>
 		</dict>
 		<key>Modules/MealziOSSDK.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6jN25Y7jAtARb+wGO2DDUmS40yRDcDac/yk9nOYECZY=
+			gszzeqbouAr89HaVYSMY2UDjr8o5+JJ5gi+/S/D4EnU=
 			</data>
 		</dict>
 		<key>Modules/MealziOSSDK.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qeH8QyvknnMzAQ8E69RDdk75sII9MQ6L5GSw+DsxvCY=
+			dL085/4Gmq5e3yC6E6NX7/U0u8sJhOTfT6hDNOXcwIk=
 			</data>
 		</dict>
 		<key>Modules/MealziOSSDK.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6jN25Y7jAtARb+wGO2DDUmS40yRDcDac/yk9nOYECZY=
+			gszzeqbouAr89HaVYSMY2UDjr8o5+JJ5gi+/S/D4EnU=
 			</data>
 		</dict>
 		<key>Modules/MealziOSSDK.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			dyPTw3h76UeBS/CYmOvgiDo9WFXq9D8F69SY8JHk06M=
+			xm2YdO2rJMmBo0iT1ctouhQ3txTNs0mcqvmJ46C7ZbU=
 			</data>
 		</dict>
 		<key>Modules/MealziOSSDK.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			djWG+66vYvFx4x2UT2HGSGAlb4r3CeWhAqr5eSzukzw=
+			m6NHjaxUG4OPuWpPalqdEAXzv8gApn9E+WbSVrXJAUY=
 			</data>
 		</dict>
 		<key>Modules/MealziOSSDK.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8zOPIkWBd0vyjeXPL3Obqi8y83F0Lg/udqHzlnZnN2A=
+			n2Kkh+GFPHvtfzDTqOhy1JfaBzoD8PeIyws7TcNt56g=
 			</data>
 		</dict>
 		<key>Modules/MealziOSSDK.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7mM8UcnvR00sp4Lo+noFsdI27nsDisMJtMiG8s0d5Xc=
+			78UzeiXqi1pn93X6zLLYp80wQH4wdt+CIkxnaih3w0U=
 			</data>
 		</dict>
 		<key>Modules/MealziOSSDK.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			8zOPIkWBd0vyjeXPL3Obqi8y83F0Lg/udqHzlnZnN2A=
+			n2Kkh+GFPHvtfzDTqOhy1JfaBzoD8PeIyws7TcNt56g=
 			</data>
 		</dict>
 		<key>Modules/MealziOSSDK.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NgZceVSoth67T6DPYEh3BWjLqQMpNZMea5hgPXAQ7AE=
+			jq3cHeboeiTJZ58H1qjR6QpaYA9EwHdgfQljowkUZlQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -164,6 +200,42 @@
 			<data>
 			14iQkAcp5nzhrDHjbYz45dDQy8D7W0NncUULoamSD1s=
 			</data>
+		</dict>
+		<key>en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Y6ccs7bk6a2r3uMj2/KKf+DLgoCkCGzDPNb7YZc3XdQ=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>en.lproj/Localizable.stringsdict</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cFjTYJkZpO0K0otCA+szBE1OvfwP7YWTooV2XyHNlfI=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>fr.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Gd2Qg7Q+HMzDFlsSapxVLwWiqM7UaAPnM3oFablHclY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>fr.lproj/Localizable.stringsdict</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			PuB1AmF1IQaG31G8jCjn0V0hvuaKcBQYHcZeg9AR0+c=
+			</data>
+			<key>optional</key>
+			<true/>
 		</dict>
 	</dict>
 	<key>rules</key>
