@@ -3,22 +3,31 @@
 
 import PackageDescription
 
+let configurationMode = "prod"
+
 let package = Package(
-    name: "MealziOSSDKRelease",
+    name: "MealziOSSDK",
     defaultLocalization: "fr",
     platforms: [
         .iOS(.v12),
     ],
     products: [
-        // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "MealziOSSDKRelease",
-            targets: ["MealziOSSDKRelease"]),
+            name: "MealziOSSDK",
+            targets: ["MealziOSSDK"]
+        ),
+    ],
+    dependencies: [
+        .package(url: "https://github.com/miamtech/MealzCoreRelease", from: "5.7.4"),
     ],
     targets: [
         .binaryTarget(
-            name: "MealziOSSDKRelease",
-            path: "./MealziOSSDK.xcframework"
-        )
+            name: "MealziOSSDK",
+            url: "https://github.com/miamtech/MealziOSSDKRelease/raw/release/5.7.4/MealziOSSDK.zip",
+            checksum: "8a2fb20a52bde3e32cea1c6129b9ee3acf747fd231354af9c531c1f83ac43821"
+        ),
     ]
 )
+/*
+
+ */
